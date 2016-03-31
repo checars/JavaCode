@@ -10,6 +10,7 @@ class Base
 		this.score = score;
 	}
 	public Base(){	//此处的无参构造器不能省略，否则会报错
+		
 		System.out.println("父类中的无参构造函数");
 	}
 }
